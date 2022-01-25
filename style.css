@@ -16,29 +16,29 @@ main {
   height: 109vh;
 }
 
-navbar {
-  width: 1500px;
+.navbar {
+  width: 1200px;
   height: 75px;
   margin: auto;
 }
 
-icon {
-  width: 200px;
+.icon {
+  width: 100px;
   float: left;
   height: 70px;
 }
 
 .logo {
   color: orange;
-  font-size: 35px;
+  font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 20px;
   float: left;
   padding-top: 15px;
 }
 
-menu {
-  width: 800px;
+.menu {
+  width: 500px;
   float: left;
   height: 70px;
 }
@@ -52,7 +52,7 @@ ul {
 
 ul li {
   list-style-type: none;
-  margin-left: 80px;
+  margin-left: 100px;
   margin-top: 27px;
   font-size: 16px;
 }
@@ -69,7 +69,7 @@ ul li a:hover {
   color: orange;
 }
 
-search {
+.search {
   width: 330px;
   float: left;
   margin-left: 270px;
@@ -109,15 +109,16 @@ search {
   outline: none;
 }
 
-content {
+.content {
   width: 1200px;
   height: auto;
   margin: auto;
   color: white;
-  position: relative;
+  position: absolute;
+  top: 20%;
 }
 
-content.par {
+.content.par {
   padding-left: 20px;
   padding-bottom: 25px;
   font-family: Arial, Helvetica, sans-serif;
@@ -125,7 +126,7 @@ content.par {
   line-height: 30px;
 }
 
-content.h1 {
+.content.h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 50px;
   padding-left: 20px;
@@ -133,7 +134,7 @@ content.h1 {
   letter-spacing: 2px;
 }
 
-content span {
+.content span {
   color: orange;
   font-size: 60px;
 }
@@ -142,11 +143,12 @@ form {
   width: 250px;
   height: 380px;
   background: linear-gradient(to top, rgba(0, 0, 0.8) 50%, rgba(0, 0, 0.8) 50%);
-  position: sticky;
-  top: -20px;
-  left: 870px;
-  border-radius: 10px;
+  position: relative;
+  top: 200px;
+  left: 900px;
+  border-radius: 20px;
   padding: 25px;
+  border-color: white;
 }
 form h2 {
   width: 220px;
